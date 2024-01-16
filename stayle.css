@@ -1,18 +1,27 @@
-*body{
-	margin: 0;
-	padding: 0;
+body{
+	margin:0;
 }
 
-.homeslider {
-    background: no-repeat;
-    overflow: hidden;
-	padding: 0;
-	margin: 0;
+#lorem {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
 }
-.slidercontent {
-	
+.content{
+    background-color: red;
+    color: #FFF;
+	width: 100% ;
+    height: 50px;
+	margin-bottom: 20px;	
 }
-.container {
-	 background: no-repeat;
-    overflow: hidden;
+.main-manu{
+	type-style: none;
+}
+div#lorem {
+    color: #000;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+	overflow: scroll;
+	padding: 10px 10px 10px 10px;
 }
